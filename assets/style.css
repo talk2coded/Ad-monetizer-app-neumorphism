@@ -1,0 +1,347 @@
+body{
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+  
+}
+
+.bg{
+    background-color: #f9f9f9 ;
+}
+
+h1.login-am{
+    font-weight: 800;
+}
+
+.login-btn{
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  6px 6px 12px #d1d1d1, 
+             -6px -6px 12px #ffffff;
+}
+
+button[type=button]{
+    color: black;
+}
+
+.reg-btn{
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow:  6px 6px 12px #d1d1d1, 
+             -6px -6px 12px #ffffff;
+}
+
+.active{
+    border: 4px solid #09f615;
+}
+
+.reg-btn:hover{
+    border: 4px solid #09f615;
+}
+
+.login-btn:hover{
+    border: 4px solid #09f615;
+}
+
+.login{
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow:  18px 18px 38px #b8b8b8, 
+    -18px -18px 38px #ffffff;
+    padding: 10px 100px;
+}
+
+.e-mail{
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  15px 15px 31px #d9d9d9, 
+                 -15px -15px 31px #ffffff;
+    margin-top: 10px;
+    
+}
+
+i.fa-facebook{
+    color: rgba(102, 71, 212, 0.925);
+    border: 3px solid   rgba(102, 71, 212, 0.925);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+i.fa-twitter{
+    color: rgb(233, 105, 233);
+    border: 3px solid  rgb(233, 105, 233);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+i.fa-pinterest{
+    color: rgb(240, 69, 120);
+    border: 3px solid rgb(240, 69, 120);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+i.fa-tumblr{
+    color: rgb(97, 216, 231);
+    border: 3px solid rgb(97, 216, 231);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+i.fa-instagram{
+    color: rgb(248, 207, 26);
+    border: 3px solid rgb(248, 207, 26);
+    padding: 13px;
+    border-radius: 30px;
+}
+
+.offcanvas-collapse {
+    position: fixed;
+    top: 10px;
+    bottom: 0;
+    right: 100%;
+    left: -300px;
+    width: 300px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 100px;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: /*#343a40*//*#f8f9fa*/#ffffff;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+    transition-property: left, visibility;
+}
+
+.offcanvas-collapse {
+    align-items: start;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    border-right: 5px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.offcanvas-collapse.open {
+    left: 0;
+    visibility: visible;
+}
+
+.navbar-expand-lg .navbar-nav {
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+.nav-scroller .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    font-size: .875rem;
+    color: #000000;
+}
+
+.nav-underline .nav-link:hover {
+    color: #007bff;
+}
+
+.nav-underline .active1 {
+    font-weight: 500;
+    color: #000000;
+}
+
+nav.navbar{
+    border-radius: 0px;
+    background: #ffffff;
+    box-shadow:  14px 14px 28px #e3e3e3, 
+                 -14px -14px 28px #ffffff;
+}
+
+.drop-menu1{
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.dropdown-menu{
+    background-color: #ffffff;
+    background-image: -webkit-linear-gradient(150deg, #9ccc65  55%, #ffffff 45%);
+    min-height: 400px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.dez{
+    text-align: right;
+    font-weight: 700;
+    color: white;
+}
+
+.dez:hover{
+    color: black;
+}
+
+.pg-menu{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #000000;
+}
+
+.wave-container {
+    position: relative;
+    background: #09F;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  a.deserunt{
+    padding: 20px;
+    color: black;
+    font-size: larger;
+    font-weight: 900;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow:  10px 10px 21px #e3e3e3, 
+                 -10px -10px 21px #ffffff;
+  }
+
+  a.deserunt-active{
+      background-color: #09f615;
+      color: white;
+  }
+
+  div.deser{
+      margin-bottom: 100px;
+  }
+
+  i.card-img{
+      margin-top: 50px;
+      text-align: center;
+      font-size: 20px;
+      width: 50px;
+      padding: 10px;
+      border-radius: 60px;
+      margin-left: 20px;
+      color: white;
+  }
+
+  div.comp1{
+    border-radius: 21px;
+    background: #ffffff;
+    box-shadow:  8px 8px 16px #e3e3e3, 
+                 -8px -8px 16px #ffffff;
+  }
+
+  div.social-media{
+    border-radius: 21px;
+    background: #e8ece9;
+    box-shadow:  12px 12px 24px #d8dbd9, 
+    -12px -12px 24px #f8fdf9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    max-width: 80%;
+  }
+
+  div.social-media2{
+    border-radius: 21px;
+    background: #e8ece9;
+    box-shadow:  12px 12px 24px #d8dbd9, 
+    -12px -12px 24px #f8fdf9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+  }
+
+  div.component2{
+      padding-top: 100px;
+      background: #e8ece9;
+      border-radius: 19px;
+      background: #e8ece9;
+      box-shadow:  12px 12px 24px #d8dbd9, 
+                   -12px -12px 24px #f8fdf9;
+  }
+
+  .row{
+      margin: 0;
+      padding: 0;
+  }
+
+  div.overall-card{
+    border-radius: 32px;
+    background: #ffffff;
+    box-shadow:  13px 13px 26px #e0e0e0, 
+                 -13px -13px 26px #ffffff;
+                 padding: 40px;
+  }
+
+  i.fa-bell{
+      margin-left: 20px;
+      margin-right: 20px;
+      border: 2px solid green;
+      color: green;
+      font-size: 25px;
+      padding: 20px;
+      border-radius: 30px;
+      background-color: #c0f5e6;
+  }
+
+  i.fa-envelope{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid red;
+    color: red;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #f1ced9;
+  }
+
+  i.fa-star{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid orange;
+    color: orange;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #f1e2ce;
+  }
+
+  div.notifications{
+      margin-left: 50px;
+      border-left: 2px solid black;
+      padding-left: 60px;
+      padding-bottom: 70px;
+      border-left-style: dotted;
+  }
+
+  @media (max-width: 768px){
+      div.social-media{
+        max-width: 100%;   
+      }
+  }
+
