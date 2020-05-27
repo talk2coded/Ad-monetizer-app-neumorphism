@@ -339,6 +339,26 @@ nav.navbar{
       border-left-style: dotted;
   }
 
+  a.deser-1{
+       font-weight: 900;
+       color: #09f615;
+  }
+
+
+#fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+i.fa-plus-circle{
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    color: #09f615;
+    box-shadow: #09f615;
+}
+
   @media (max-width: 768px){
       div.social-media{
         max-width: 100%;   
